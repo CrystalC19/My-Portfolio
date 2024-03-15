@@ -1,6 +1,176 @@
+/*added a gradient color to the root of my sheet*/
 :root {
-    --primary-color: ;
-    --secondary-color: ;
-    --teritary-color:  ;
+ background: linear-gradient(#f6ea7bff, #ffba52ff, #e683a9ff);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
 
+}
+* {
+    box-sizing: border-box;  
+    margin: 0;
+    padding: 0;
+}
+html { 
+    height: 100%;}
+    
+/* Header styling*/
+body{
+    height: 100%;
+    font-family: "yellowtail", sans-serif;
+    display: block;
+}
+
+.header {
+    padding: 20px;
+    background-color: #e683a9ff;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    overflow: hidden;
+}
+header h1{
+     
+    margin: 5px 10px 5px 30px;
+    font-size: 50px;
+}
+
+header nav{ 
+    padding-top: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    display:inline-block;
+    margin-left: 25px;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+
+}
+header nav ul li a:hover{
+    color:#ffba52ff;
+    border-radius: 15px;
+    text-shadow: none
+}
+/* About me Section*/
+.intro{
+    font-size: 30px;
+    color: blueviolet;
+    padding: 5px 35px 0 20px;
+    width: 50%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.Avatar { 
+        position: relative;
+        margin: 12px;
+    }
+
+
+#About-me { 
+    margin: 20px auto;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+h2{ 
+    font-size: 45px;
+    display: inline-block;
+    border-right: 5px dotted;
+    margin-right: 35px;
+    color: blueviolet;
+    text-align: right;
+    padding: 30px;
+    flex-basis: 20px;
+}
+/*My Work Section*/
+
+.my-work{
+    margin:20px auto;
+    padding-bottom: 50px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.section-title-work {
+    font-size: 45px;
+    display: inline-block;
+    border-right: 5px dotted;
+    margin-right: 35px;
+    color: blueviolet;
+    text-align: right;
+    padding: 30px;
+    flex-basis: 20px;
+}
+
+.Portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 66%;
+}
+a {
+    position:relative;
+    margin:12px;
+    width: fit-content;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+img{ 
+    width: 300px;
+    border: 5px solid;
+    border-color: chartreuse;
+    margin: 40px;
+}
+.bottom-right{
+    font-size: 30px;
+    color: blueviolet;
+    
+    
+}
+.first {
+    width: 500px;
+    margin-left: 100px;
+
+}
+/*footer*/ 
+#contact {
+  
+    margin: 20px auto;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.footer-title{
+    font-size: 45px;
+    display: inline-block;
+    border-right: 5px dotted;
+    margin-right: 35px;
+    color: blueviolet;
+    text-align: right;
+    padding: 30px;
+    flex-basis: 20px;
+}
+footer p {
+    font-size: 25px;
+    color: blueviolet;
+    padding: 5px 35px 0 20px;
+    width: 50%;
+}
+footer a{
+    color:blueviolet
 }
