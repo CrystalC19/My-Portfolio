@@ -25,7 +25,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Link to deployed application
 
 https://github.com/CrystalC19/My-Portfolio.git
-https://
+https://crystalc19.github.io/My-Portfolio/index.html
 
 
 
